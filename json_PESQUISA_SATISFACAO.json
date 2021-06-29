@@ -1,0 +1,33 @@
+{
+	"ZMI": {
+		"DATABASES": {
+			"DATABASE": {
+				"@attributes": {
+					"NAME": "MANAGER",
+					"AUTOCOMMIT_VALUE": "1000",
+					"AUTOCOMMIT_ENABLED": "1",
+					"HALTONERROR": "1"
+				},
+				"COMMANDS": {
+					"REPLACE": {
+						"PESQUISA_SATISFACAOS": {
+							"PESQUISA_SATISFACAO": [
+								{
+									"COD_SATISFACAO": "Cod. Pesq. Satisfacao ** Obrigatorio **",
+									"DESCRICAO": "Descricao ** Obrigatorio **",
+									"TEXTO_1": "Texto Detrator",
+									"TEXTO_2": "Texto Promotor",
+									"DTH_INCLUSAO": "Data do Cadastro",
+									"DTH_ALTERACAO": "Data Alteracao",
+									"TIPO_LAYOUT": "Tipo Layout ** Obrigatorio **",
+									"FLG_ATIVA": "Ativo ** Obrigatorio **",
+									"IDT_USUARIO_ALTERACAO": "Usuario Alteracao ** Obrigatorio **"
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}
